@@ -13,6 +13,8 @@ const Story: ComponentMeta<typeof Icon> = {
     height: { control: 'number' },
     iconName: {
       options: [
+        'filledStart',
+        'star',
         'x',
         'xCircle'
       ],
