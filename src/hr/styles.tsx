@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from 'react'
 import styled from 'styled-components'
-import { GRAY_SCALE_300, GRAY_SCALE_600 } from '../utils/colors'
+import { DARK_HIGH, DARK_MEDIUM } from '../utils/colors'
 
 export interface HrOutsideProps {
     children: ReactElement | string | null
@@ -17,7 +17,7 @@ export const HrContainer = styled(HrOutside)`
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
-    color: ${GRAY_SCALE_600};
+    color: ${DARK_HIGH};
     font-weight: 500;
     font-size: 14px;
     & > span {
@@ -32,7 +32,7 @@ export const HrContainer = styled(HrOutside)`
         top: 50%;
         width: 100vw;
         height: 1px;
-        background: ${GRAY_SCALE_300};
+        background: ${DARK_MEDIUM};
     }
 
     & > span:before {
