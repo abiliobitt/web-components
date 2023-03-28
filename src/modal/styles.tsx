@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { MD } from '../utils/screenSizes'
 
 export const ModalBackground = styled.div`
   width: 100%;
@@ -21,4 +22,7 @@ export const ModalContainer = styled.div`
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 1;
+  @media (max-width: ${MD}) {
+    width: 100%;
+  }
 `
