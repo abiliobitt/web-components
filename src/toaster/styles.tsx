@@ -23,7 +23,7 @@ export const ToasterContainer = styled(ToasterOutside)`
   padding: 15px;
   box-sizing: border-box;
   border-radius: 8px;
-  background-color: ${props => props.variant === 'success' ? 'rgba(5, 107, 18, 0.5)' : 'rgba(145, 8, 8, 0.5)'};
+  background-color: ${props => props.variant === 'success' ? 'rgba(5, 107, 18, 0.9)' : 'rgba(145, 8, 8, 0.9)'};
   color: ${props => props.variant === 'success' ? DARK_HIGH : LIGHT_SOLID};
 `
 
