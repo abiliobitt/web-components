@@ -4,6 +4,11 @@
   "description": "Web Components",
   "main": "dist/components/index.js",
   "module": "dist/components/index.esm.js",
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^8.0.0",
+    "yarn": "^1.0.0"
+  },
   "scripts": {
     "lint": "eslint ./src",
     "build": "rimraf dist && rollup --bundleConfigAsCjs -c",
